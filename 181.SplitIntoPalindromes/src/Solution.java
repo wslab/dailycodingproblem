@@ -55,11 +55,7 @@ public class Solution {
     }
 
     public static void printList(List<String> list) {
-        for (String s: list) {
-            System.out.print(s);
-            System.out.print(",");
-        }
-        System.out.println();
+        System.out.println(String.join(",", list));
     }
 
     public static void main(String[] args) {
